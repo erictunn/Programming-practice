@@ -1,4 +1,11 @@
-Advent of code is a yearly set of puzzles published at https://adventofcode.com  
-This is a collection of my solutions for all the challenges I was able to complete.  
-Each runs from its own file. They will require putting the correct input, from the advent of code website, into input.txt.  
-This project taught me the basics of Python, especially concerning string manipulation.  
+# Programminig practice
+
+This is a collection of all the puzzles and challenges I have done in python or C++ to improve my programming skills.  
+The original 'Advent of Code' puzzles I wrote solutions for, in python, introduced me to the basics of the language.  
+Now, I am moving on to more professional problem sets such as CSES, as well as writing some solutions in C++.
+
+## Structure  
+
+The repository is organised by platform.
+For any advent of code solution, the required input must be entered into an input.txt.  
+The advent of code website: [advent of code](https://adventofcode.com)
