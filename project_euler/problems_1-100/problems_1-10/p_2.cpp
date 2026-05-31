@@ -7,7 +7,10 @@ int main() {
     long long current = 2;
     long long previous = 1;
     long long next = 0;
-    while (current <= 4'000'000) {
+    long long less_than = 0;
+    std::cin >> less_than;
+
+    while (current <= less_than) {
         if (current % 2 == 0) {
             total += current;
         }
