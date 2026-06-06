@@ -18,12 +18,12 @@ int collatz_length_solver(int start) {
 }
 
 int main() {
-    unsigned long long start_max = 0;
+    unsigned int start_max = 0;
     std::cout << "enter max ";
     std::cin >> start_max;
-    unsigned long long longest_num;
-    unsigned long long longest = 0;
-    for (unsigned long long start = 0; start <= start_max; start++) {
+    unsigned int longest_num;
+    unsigned int longest = 0;
+    for (unsigned int start = 0; start <= start_max; start++) {
         int len = collatz_length_solver(start);
         if (len > longest) {
             longest = len;
