@@ -1,0 +1,1 @@
+add_executable(cses_weird_algorithm weird_algorithm.cpp)

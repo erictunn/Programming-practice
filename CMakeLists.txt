@@ -12,3 +12,4 @@ endif()
 
 add_subdirectory(advent_of_code)
 add_subdirectory(project_euler)
+add_subdirectory(CSES)
